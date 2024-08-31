@@ -101,6 +101,28 @@
 ## Data Modelling with Mongoose
 
 - Things to keep in mind while designing a Data model, think of all the data point / fields which are required for the backend, so accordingly we can plan the Model with ease.
+- Planning the Data model is required for a better and a successful execution of the Project.
 
 ![alt text](image-6.png)
+
+Mongoose : Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. 
+Mongoose supports Node.js and Deno (alpha).
+
+##  Steps to create a schema:
+    import mongoose from "mongoose"
+    mongoose.connect("connection string");
+
+    const userSchema = new mongoose.Schema({
+        title : String
+        // other fields
+    })
+
+    export const User = mongoose.model("User",userSchema)
+
+    // whenever we save the schema in mongo db it make the name plural
+    eg. "Todo" => todos (lower case and 's' is added in the end)
+    
+    note : In MongoDB, especially when using Object Data Modeling (ODM) libraries like Mongoose, collection naming follows certain conventions to maintain consistency and predictability. Here's why a model named "Todo" typically maps to a collection named "todos"
+
+    
 
