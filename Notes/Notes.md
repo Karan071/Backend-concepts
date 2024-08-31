@@ -73,3 +73,34 @@
 # dotenv
     Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env
     import 'dotenv/config'
+
+# Connect frontend and backend : Fullstack proxy and cors
+
+ - ToolChains and Bundlers : 
+        A toolchain is a collection of programming tools that are used to create a software product or perform a complex software development task. A bundler is a tool that helps to bundle JavaScript and CSS.
+    
+# Additional Libraries
+ - Axios : Axios is a promise-based HTTP Client for node.js and the browser.
+  It is isomorphic (= it can run in the browser and nodejs with the same codebase).
+   On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
+
+- CORS : 
+    Cross-origin resource sharing (CORS) is a browser mechanism which enables controlled access to resources located outside of a given domain.
+    ![alt text](image-3.png)
+    ![alt text](image-4.png)
+
+    link : https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+    
+    - IP/Domain -> whitelist
+
+- Proxy:
+    ![alt text](image-5.png)
+
+
+
+## Data Modelling with Mongoose
+
+- Things to keep in mind while designing a Data model, think of all the data point / fields which are required for the backend, so accordingly we can plan the Model with ease.
+
+![alt text](image-6.png)
+
