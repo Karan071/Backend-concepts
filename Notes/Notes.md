@@ -124,5 +124,13 @@ Mongoose supports Node.js and Deno (alpha).
     
     note : In MongoDB, especially when using Object Data Modeling (ODM) libraries like Mongoose, collection naming follows certain conventions to maintain consistency and predictability. Here's why a model named "Todo" typically maps to a collection named "todos"
 
+Notes : 
+- DevDependencies
+    These are the packages that are only needed for development and testing, and are not required for your application to run in production. Examples of devDependencies include Babel and Webpack. 
+    
+- Dependencies
+    These are the packages that are required for your application to run in production. They are automatically installed when you run npm install in your project directory. 
+    
+
     
 
