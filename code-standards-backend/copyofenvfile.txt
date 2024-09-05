@@ -1,0 +1,2 @@
+PORT = 8000
+MONGO_URL = mongodb+srv://perrydplatypus3:OsUHJRVN0qDUr2Ag@project-01.xkefo.mongodb.net/

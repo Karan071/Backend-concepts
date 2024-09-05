@@ -138,4 +138,16 @@ Notes :
     (Basic idea - keep things organized, so the code wont get verbose and to maintain the code readability)
 
 #### Some libararies to add into the codebase.
-1) Prettier
+1) Prettier -> .prettierrc ->  configs for the files 
+            -> .prettierignore -> to add the names of the files to ignore
+
+
+
+#### IIFE (Immediately Involved function Expression)
+     - A javascript IIFE is a function that runs the moment it is invoked or called in the Javavscript event loop.
+     - Syntax : 
+        (function (){ 
+            // Function Logic Here. 
+        })();
+        or
+        ()(); //  The function is wrapped in parentheses (function() { ... }), followed by () to immediately invoke it.
