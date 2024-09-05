@@ -151,3 +151,14 @@ Notes :
         })();
         or
         ()(); //  The function is wrapped in parentheses (function() { ... }), followed by () to immediately invoke it.
+
+
+## Custom API response and Error Handling
+    - Cookie-parser : Parse Cookie header and populate req.cookies with an object keyed by the cookie names.
+    - Multer : 
+    - Middleware : It is those methods/functions/operations that are called BETWEEN processing the Request and sending the Response in your application method.
+    - express.json() and express.urlencoded() for POST and PUT requests, because in both these requests you are sending data (in the form of some data object) to the server and you are asking the server to accept or store that data (object), which is enclosed in the body (i.e. req.body) of that (POST or PUT) Request.
+
+## StatusCode
+![alt text](image-8.png)
+

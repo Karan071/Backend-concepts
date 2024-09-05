@@ -4,9 +4,19 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 //connection string
-connectDB(); 
-
-
+connectDB()
+.then(()=>{
+    console.log(process.env.PORT || 8000, () => {
+        console.log(`Server is up and runnnin on ${process.env.PORT}`);
+        // Event listener for "Error" event on app
+        app.on("Error",(err) => {
+            console.log("Express App is not able to connect", err);
+        })
+    })
+})
+.catch((err) => {
+    console.log("MONGO DB CONNECTION FAILED !!", err);
+})
 
 
 
