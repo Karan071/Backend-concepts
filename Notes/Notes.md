@@ -130,7 +130,12 @@ Notes :
     
 - Dependencies
     These are the packages that are required for your application to run in production. They are automatically installed when you run npm install in your project directory. 
-    
 
-    
+ like nodemon and prettier should be used in development phase only not on production grade
 
+# Production level code standards :  file structure 
+![alt text](image-7.png)
+    (Basic idea - keep things organized, so the code wont get verbose and to maintain the code readability)
+
+#### Some libararies to add into the codebase.
+1) Prettier
